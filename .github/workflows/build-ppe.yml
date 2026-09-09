@@ -162,10 +162,7 @@ jobs:
         working-directory: openwrt
         run: |
           set -euo pipefail
-          if ! make -j"$(nproc)"; then
-            echo "::warning::Parallel build failed; retrying single-threaded for diagnostics"
-            make -j1 V=s
-          fi
+          make -j"$(nproc)"
 
       - name: Upload images
         run: |
