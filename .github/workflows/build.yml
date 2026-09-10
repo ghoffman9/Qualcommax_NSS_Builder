@@ -15,7 +15,8 @@ on:
       - 'scripts/**'
       - '.github/workflows/build.yml'
   schedule:
-    - cron: "0 */2 * * *"
+ #    - cron: "0 */2 * * *"
+#### no schedule
 
 concurrency:
   group: build-${{ github.ref }}
