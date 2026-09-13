@@ -39,7 +39,6 @@ CONFIG_PACKAGE_luci-app-statistics=y
 CONFIG_PACKAGE_luci-app-uhttpd=y
 CONFIG_PACKAGE_luci-theme-footstrap=y
 
-
 CONFIG_PACKAGE_nssqos=n
 CONFIG_PACKAGE_luci-app-nssqos=n
 CONFIG_PACKAGE_ddns_scripts=n
@@ -47,6 +46,8 @@ CONFIG_PACKAGE_luci_app_ddns=n
 CONFIG_PACKAGE_sqmd_scripts=n
 CONFIG_PACKAGE_sqm-scripts-nss=n
 CONFIG_PACKAGE_luci_app_sqm=n
+CONFIG_PACKAGE_nssqos=n
+CONFIG_PACKAGE_luci-app-nssqos=n
 
 ##-----------------------------------------------
 
@@ -60,5 +61,7 @@ CONFIG_PACKAGE_luci_app_sqm=n
 # CONFIG_PACKAGE_sqm-scripts-nss=y
 # CONFIG_PACKAGE_nlbwmon=y
 # CONFIG_PACKAGE_luci-app_nlbwmon=y
+# CONFIG_PACKAGE_nssqos=y
+# CONFIG_PACKAGE_luci-app-nssqos=y
 
   
