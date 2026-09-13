@@ -37,7 +37,7 @@ CONFIG_PACKAGE_collectd=y
 CONFIG_PACKAGE_collectd-mod-ping=y
 CONFIG_PACKAGE_luci-app-statistics=y
 CONFIG_PACKAGE_luci-app-uhttpd=y
-CONFIG_PACKAGE_luci-theme-footstrap=
+CONFIG_PACKAGE_luci-theme-footstrap=y
 
 
 CONFIG_PACKAGE_nssqos=n
