@@ -1,4 +1,4 @@
-name: Build
+name: build-AP
 
 # Builds the edma-nss images for ipq807x-AP and two
 # flavours (default, and mesh on the 11.4 firmware line):
@@ -7,7 +7,7 @@ name: Build
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [ipq807x-AP]
     paths:
       - 'devices/**'
       - '!devices/common-ppe/**'
