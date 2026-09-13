@@ -24,11 +24,7 @@ CONFIG_TARGET_PER_DEVICE_ROOTFS=y
 CONFIG_ATH11K_MEM_PROFILE_1G=y
 CONFIG_NSS_MEM_PROFILE_HIGH=y
 
-CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_homewrk=y
-CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx4200v2=y
 CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx4300=y
-CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx5300=y
-CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_linksys_mx8500=y
 
 ## addtional packages
 ##---------------------------------------------
@@ -40,18 +36,29 @@ CONFIG_PACKAGE_luci-app-advanced-reboot=y
 CONFIG_PACKAGE_collectd=y
 CONFIG_PACKAGE_collectd-mod-ping=y
 CONFIG_PACKAGE_luci-app-statistics=y
+CONFIG_PACKAGE_luci-app-uhttpd=y
+CONFIG_PACKAGE_luci-theme-footstrap=
+
 
 CONFIG_PACKAGE_nssqos=n
 CONFIG_PACKAGE_luci-app-nssqos=n
+CONFIG_PACKAGE_ddns_scripts=n
+CONFIG_PACKAGE_luci_app_ddns=n
+CONFIG_PACKAGE_sqmd_scripts=n
+CONFIG_PACKAGE_sqm-scripts-nss=n
+CONFIG_PACKAGE_luci_app_sqm=n
 
 ##-----------------------------------------------
 
 # for gateway
-#CONFIG_PACKAGE_nssqos=y
-#CONFIG_PACKAGE_luci-app-nssqos=y
-#CONFIG_PACKAGE_ddns_scripts=y
-#CONFIG_PACKAGE_luci_app_ddns=y
-#CONFIG_PACKAGE_nlbwmon=y
-#CONFIG_PACKAGE_luci-app_nlbwmon=y
+# CONFIG_PACKAGE_nssqos=y
+# CONFIG_PACKAGE_luci-app-nssqos=y
+# CONFIG_PACKAGE_ddns_scripts=y
+# CONFIG_PACKAGE_luci_app_ddns=y
+# CONFIG_PACKAGE_sqmd_scripts=y
+# CONFIG_PACKAGE_luci_app_sqm=y
+# CONFIG_PACKAGE_sqm-scripts-nss=y
+# CONFIG_PACKAGE_nlbwmon=y
+# CONFIG_PACKAGE_luci-app_nlbwmon=y
 
   
